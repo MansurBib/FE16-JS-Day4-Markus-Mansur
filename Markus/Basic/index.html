@@ -8,8 +8,29 @@
 </head>
 
 <body>
-
-
+    <form>
+        <label for="firstname">First name</label><br>
+        <input id="firstname" type="text"><br>
+        <label for="lastname">Last name</label><br>
+        <input id="lastname" type="text"><br>
+        <label for="age">Age</label><br>
+        <input id="age" type="number"><br>
+        <label for="profession">Profession</label><br>
+        <select name="profession " id="profession">
+            <option disabled selected value> -- select an option -- </option>
+            <option value="it">IT</option>
+            <option value="hospitality">Hospitality</option>
+            <option value="engineering">Engineering</option>
+        </select>
+    </form>
+    <div id="output">
+        <p>First Name:</p>
+        <p id="firstnamep"></p>
+        <p>Last Name:</p>
+        <p id="lastnamep"></p>
+        <p>Age:</p>
+        <p id="agep"></p>
+    </div>
     <script src="index.js"></script>
 </body>
 

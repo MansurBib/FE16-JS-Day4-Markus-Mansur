@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+}
+
+.grid {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 250px 250px 250px;
+    justify-content: center;
+}
+
+.grid div {
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#box1,#box3,#box4,#box6,#box8 {
+    background-image: url("box.webp");
+}
+
+#box2,#box5,#box7,#box9 {
+    background-image: url("santa.png");
+}
+
+#bg {
+    width: 50%;
+}
